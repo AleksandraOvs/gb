@@ -1,0 +1,29 @@
+.elementor-image-carousel {
+    height: 550px;
+}
+
+.elementor-image-carousel .swiper-slide {
+    height: 100%;
+}
+
+.elementor-image-carousel .swiper-slide a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.elementor-image-carousel .swiper-slide a figure {
+    height: 100%;
+    width: 100%;
+}
+
+.elementor-image-carousel .swiper-slide a figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-us-slider .elementor-widget-container .elementor-image-carousel-wrapper .elementor-image-carousel {
+    gap: 20px;
+}

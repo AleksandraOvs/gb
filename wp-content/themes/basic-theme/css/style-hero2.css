@@ -1,0 +1,110 @@
+
+
+.section-hero2 {
+    position: relative;
+    background: var(--dark-green);
+    height: 100vh;
+}
+
+.section-hero2 .hero2-image{
+    position:absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+   object-position: bottom center;
+   z-index: 1;
+}
+
+.section-hero2-elements1,
+.section-hero2-elements2{
+    position:absolute;
+    width:100%;
+    height: 100%;
+}
+.section-hero2-elements1:after{
+    content: '';
+    height: 70vh;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.5;
+    background: url(../images/bg2.svg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    z-index:3;
+}
+
+.section-hero2-elements2:after{
+    content: '';
+    height: 100vh;
+    width: 30%;
+    display: block;
+    position: absolute;
+    top: 0;
+    background: url(../images/palms-right.svg) no-repeat;
+    background-position: left top;
+    background-size: contain;
+    z-index: 3;
+}
+
+.section-hero2 .fixed-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero2-image.animateBlur{
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    -moz-backdrop-filter: blur(50px);
+    -ms-backdrop-filter: blur(50px);
+}
+
+.hero2-image.animateBlur.element-show{
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    -moz-backdrop-filter: blur(0);
+    -ms-backdrop-filter: blur(0);
+    transition: filter 2s linear;
+}
+
+.section-hero__img__title h1 {
+    font-size: calc(1em + 4vw);
+}
+
+.section-hero__img__title.tobottom h1 {
+    filter: blur(20px);
+    transition: filter 1.5s ease-in;
+}
+
+.section-hero__img__title.tobottom.element-show h1{
+    filter: blur(0);
+    transition: filter 1.5s ease-out;
+}
+
+.section-hero__img__left-content.toopacity{
+    opacity: 0;
+    transition: opacity 2s linear;
+}
+
+.section-hero__img__left-content.toopacity.element-show{
+    opacity: 1;
+    transition: opacity 2s linear;
+}
+
+/* 
+.section-hero2-elements2.toopacity:after {
+    transform: scale(1.5);
+    transition: transform 1s linear;
+}
+
+.section-hero2-elements2.toopacity.element-show:after{
+    transform: scale(1);
+    transition: transform 1s linear;
+} */
