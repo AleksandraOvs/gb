@@ -431,7 +431,7 @@ button.header__burger.burger._open:after {
 
 button.header__burger.burger._open .burger__line {
     opacity: 0;
-    width:0;
+    transform:scale(0);
 }
 
 span.burger__line:before {
