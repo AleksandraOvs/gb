@@ -1,9 +1,8 @@
 jQuery(document).ready(function($)  {
     let width = $(window).width();
     let body = $('body');
-    let menu = $('.mobile__menu__inner');
-    let programmItem = $('.entry-post__programm');
-    let programmMore = $('.entry-post__programm__more')
+    let menu = $('.mobile-toggle__menu');
+  
 
     $(document).on('click', '.js-toggle-menu', function () {
       $(this).toggleClass('_open');
@@ -12,17 +11,6 @@ jQuery(document).ready(function($)  {
         
     });
 
-    //контент для программ
-
-    $(document).on('click', '.entry-post__programm', function (e) {
-      //$(this).toggleClass('_open');
-      $(this).toggleClass('_open');
-      $(this).find('.entry-post__programm__content').toggleClass('_open');
-      e.preventDefault();
-      $(programmMore).toggleClass('_active');
-    });
-
-    const headerFront = document.querySelector('.header__top');
 
   // Вверх и показ верхнего меню
     const headerChange = () => {

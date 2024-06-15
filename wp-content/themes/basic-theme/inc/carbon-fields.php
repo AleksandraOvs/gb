@@ -11,10 +11,14 @@ use Carbon_Fields\Container;
         ->set_page_menu_position( 2 )
         ->set_icon ('dashicons-admin-generic')
         ->add_tab(__('Контакты'), array (
-            Field::make('text', 'crb_phone', 'Номер телефона')
+            // Field::make('text', 'crb_phone', 'Номер телефона')
+            // ->set_width(50),
+            // Field::make('text', 'crb_phone_link', 'Ссылка на номер')
+            // ->help_text('ссылка на номер вида tel:8800808080')
+            // ->set_width(50),
+            Field::make('text', 'crb_address', 'Адрес')
             ->set_width(50),
-            Field::make('text', 'crb_phone_link', 'Ссылка на номер')
-            ->help_text('ссылка на номер вида tel:8800808080')
+            Field::make('image', 'crb_address_icon', 'Иконка адреса')
             ->set_width(50),
             Field::make('complex', 'contacts', 'Контакты')
             ->add_fields( array(
@@ -25,6 +29,7 @@ use Carbon_Fields\Container;
                 Field::make('text', 'crb_contact_link', 'Ссылка контакта')
                     ->set_width(33),
             )),
+            
 
         ))
 

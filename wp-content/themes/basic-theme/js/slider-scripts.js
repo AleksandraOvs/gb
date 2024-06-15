@@ -1,36 +1,36 @@
 const swiper = new Swiper('.hero-slider', {
-  // slidesPerView: 1.5,
-  // centeredSlides: true,
-  // loop: true,
-  //   pagination: {
-  //     el: '.hero-slider__pagination',
-  //     clickable: true,
-  //   },
+  slidesPerView: 1.5,
+  centeredSlides: true,
+  loop: true,
+    pagination: {
+      el: '.hero-slider__pagination',
+      clickable: true,
+    },
 
 
-  //   navigation: {
-  //     nextEl: '.hero-slider__button-next',
-  //     prevEl: '.hero-slider__button-prev',
-  //   },
+    navigation: {
+      nextEl: '.hero-slider__button-next',
+      prevEl: '.hero-slider__button-prev',
+    },
 
-  //   breakpoints: {
-  //     480: {
-  //         slidesPerView: 1.5,
-  //         spaceBetween: 5,
-  //         slideToClickedSlide: true,
-  //     },
-  //     576: {
-  //         slidesPerView: 3,
-  //         spaceBetween: 5,
-  //         slideToClickedSlide: true,
-  //     },
+    // breakpoints: {
+    //   480: {
+    //       slidesPerView: 1.5,
+    //       spaceBetween: 5,
+    //       slideToClickedSlide: true,
+    //   },
+    //   576: {
+    //       slidesPerView: 3,
+    //       spaceBetween: 5,
+    //       slideToClickedSlide: true,
+    //   },
 
-  //     1400:{
-  //       slidesPerView: 5,
-  //         spaceBetween: 5,
-  //         slideToClickedSlide: true,
-  //     }
-  // }
+    //   1400:{
+    //     slidesPerView: 5,
+    //       spaceBetween: 5,
+    //       slideToClickedSlide: true,
+    //   }
+  }
   loop: true,
   grabCursor: true,
   spaceBetween: 10,

@@ -6,17 +6,12 @@
 
 ?>
 
-
-
-
 </main>
-
-
-
 <footer id="footer" class="footer">
    
 </footer>
-				
+</div>
+<!-- end of site-container -->
 <?php wp_footer(); ?>
 
 </body>

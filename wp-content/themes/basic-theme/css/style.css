@@ -1,3 +1,11 @@
+:root {
+    --black: #212121;
+    --orange: #F06200;
+    --light-orange: #F9c099;
+    --grey: #909090;
+    --white-gradient: linear-gradient(0deg, rgba(231,231,231,1) 0%, rgba(255,255,255,1) 31%);
+}
+
 html {
     overflow-x: hidden;
 }
@@ -29,13 +37,13 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: var(--black);
     line-height: 130%;
-    background: rgb(231,231,231);
-    background: var(--white-gradient);
+    /* background: rgb(231,231,231);
+    background: var(--white-gradient); */
     width: 100%;
 }
 
@@ -52,13 +60,13 @@ ul {
 }
 
 a {
-    color: #111111;
+    color: var(--black);
     text-decoration: none;
     transition: all .3s linear;
 }
 
 a:hover {
-    color: #6e9600;
+    color: var(--orange);
     /* filter:drop-shadow(0 0 5px rgba(22,159,219, 0.85)); */
     transition: all .3s linear;
 }
@@ -72,9 +80,9 @@ a.button,
     line-height: 1;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 3px;
-    padding: 15px 35px;
+    padding: 15px 24px;
     color: #fff;
+    border:1px solid var(--orange);
     border-radius: 3px;
     width: 300px;
     transition: all .3s linear;
@@ -95,8 +103,8 @@ a.button.fill:hover,
 a.button:hover,
 .wpcf7-submit.has-spinner:hover {
     background: transparent;
-    border-color: #fff;
-    color: #fff;
+    border-color: var(--orange);
+    color: var(--orange);
     transition: all .3s linear;
     transform: scale(1.02);
 }
@@ -136,6 +144,11 @@ h1 {
 }
 
 @media (max-width: 768px) {
+    .fixed-container {
+        padding: 8px 10px;
+        margin: 0 auto;
+    }
+
     h1 {
         font-size: 40px;
     }
@@ -169,23 +182,6 @@ h4 {
 p {
     margin: 0;
     padding: 0;
-}
-
-.mheader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.site-container {
-    /* height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; */
-}
-
-section.maintenance-page {
-    height: 100vh;
 }
 
 .site-container {
