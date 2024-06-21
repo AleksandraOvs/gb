@@ -90,10 +90,10 @@
 
 				</div>
 
-				<button class="header__burger burger js-toggle-menu" type="button">
+				<a class="header__burger burger js-toggle-menu">
 					<span class="burger__line"></span>
 					<span class="sr-only">open/close menu</span>
-				</button>
+				</a>
 			</div>
 
 			<div class="fixed-container head_menu">

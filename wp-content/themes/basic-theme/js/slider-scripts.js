@@ -1,5 +1,5 @@
 const swiper = new Swiper('.hero-slider', {
-  slidesPerView: 1.5,
+  slidesPerView: 1,
   centeredSlides: true,
   loop: true,
     pagination: {
@@ -30,31 +30,9 @@ const swiper = new Swiper('.hero-slider', {
     //       spaceBetween: 5,
     //       slideToClickedSlide: true,
     //   }
-  }
-  loop: true,
-  grabCursor: true,
-  spaceBetween: 10,
-  centeredSlides: true,
-  slidesPerView: 5,
-  // effect: "coverflow",
-  //     grabCursor: true,
-  //     centeredSlides: true,
-  //     slidesPerView: 5,
-  //     coverflowEffect: {
-  //       rotate: 30,
-  //       stretch: 0,
-  //       depth: 5,
-  //       modifier: 0.7,
-  //       slideShadows: true,
-  //     },
+  })
 
-  navigation: {
-    nextEl: '.hero-slider__button-next',
-    prevEl: '.hero-slider__button-prev',
-  },
-
-});
-
+  
 const books_swiper = new Swiper('.books-slider', {
   //effect: "coverflow",
   grabCursor: true,

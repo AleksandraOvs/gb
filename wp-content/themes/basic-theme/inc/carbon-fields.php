@@ -55,8 +55,7 @@ use Carbon_Fields\Container;
         ->set_page_menu_position( 2 )
         ->set_icon ('dashicons-cover-image')
         ->add_fields( array (
-            Field::make('image', 'crb_hero-image', 'Изображение')
-            ->set_width(20),
+           
             Field::make('rich_text', 'crb_hero-head', 'Первый заголовок')
             ->set_width(40),
             Field::make('rich_text', 'crb_hero-description', 'Текст под заголовком')
@@ -67,9 +66,10 @@ use Carbon_Fields\Container;
             ->set_width(50),
             Field::make('text', 'crb_hero-slider_head', 'Заголовок слайдера')
             ->set_width(50),
-            Field::make('complex', 'hero-slider', 'Слайдер на главном экране')
+            Field::make('complex', 'hero-slides', 'Слайдер на главном экране')
             ->add_fields(array (
-                Field::make('rich_text', 'hero-slider_content', 'Текст слайда')
+                 Field::make('image', 'crb_hero-image', 'Изображение')
+            ->set_width(20),
             ))
                  ));
 

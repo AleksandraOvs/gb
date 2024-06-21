@@ -6,6 +6,7 @@ header.header {
     background: #fff;
     width: 100%;
     font-size: 16px;
+    padding-top: 8px;
     z-index: 15;
 }
 
@@ -13,7 +14,6 @@ header.header .fixed-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 30px;
 }
 
 .header__right {
@@ -351,7 +351,7 @@ ul.header__menu__messengers li {
     color: var(--yellow);
 }
 
-button.header__burger {
+a.header__burger {
     display: none;
     position: relative;
     background: transparent;
@@ -387,12 +387,12 @@ span.burger__line {
     transition: all .3s linear;
 }
 
-button.header__burger:hover .burger__line {
+a.header__burger:hover .burger__line {
     width:80%;
 }
 
-button.header__burger:hover:before,
-button.header__burger:hover:after{
+a.header__burger:hover:before,
+a.header__burger:hover:after{
     width:80%;
 }
 
@@ -408,13 +408,13 @@ span.burger__line {
     /* top: 9px; */
 }
 
-button.header__burger.burger._open:before {
+a.header__burger.burger._open:before {
     position:absolute;
     top: 50%;
     transform: rotate(45deg);
 }
 
-button.header__burger.burger._open:after {
+a.header__burger.burger._open:after {
     position: absolute;
     top: 50%;
     transform: rotate(-45deg);
@@ -429,7 +429,7 @@ button.header__burger.burger._open:after {
 }
 
 
-button.header__burger.burger._open .burger__line {
+a.header__burger.burger._open .burger__line {
     opacity: 0;
     transform:scale(0);
 }
@@ -506,17 +506,13 @@ transition: all .5s ease-in-out;
         z-index:10;
     }
 
-    .button.header__burger{
-        display: flex;
-    }
-
     a.site-header__logo {
         display: block;
         width: 128px;
         height: 68px;
     }
 
-    button.header__burger {
+    a.header__burger {
         display: flex;
     }
 
@@ -528,17 +524,17 @@ transition: all .5s ease-in-out;
         display:none;
     }
 
-    button.header__burger.burger._open .header__burger:after,
-    button.header__burger.burger._open .header__burger:before{
+    a.header__burger.burger._open .header__burger:after,
+    a.header__burger.burger._open .header__burger:before{
         position: absolute;
     }
 
-    button.header__burger:hover .burger__line {
+    a.header__burger:hover .burger__line {
         width:100%;
     }
     
-    button.header__burger:hover:before,
-    button.header__burger:hover:after{
+    a.header__burger:hover:before,
+    a.header__burger:hover:after{
         width:100%;
     }
 
