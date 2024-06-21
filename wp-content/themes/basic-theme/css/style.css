@@ -555,6 +555,10 @@ ul.breadcrumbs__list {
     margin-top: 20px;
 }
 
+section.basic-page {
+    margin-bottom: 90px;
+}
+
 #footer{
     padding-top: 40px;
     padding-bottom:20px;
@@ -722,6 +726,10 @@ p.footer-bottom__about-company {
         grid-template-columns: repeat(3, 1fr);
         gap:16px;
     }
+
+    section.basic-page {
+        margin-bottom: 60px;
+    }
 }
 
 @media (max-width: 480px){
@@ -730,6 +738,10 @@ p.footer-bottom__about-company {
         gap:16px;
         grid-template-columns: repeat(2, 1fr);
         justify-content: space-between;
+    }
+
+    section.basic-page {
+        margin-bottom: 40px;
     }
   
 }
