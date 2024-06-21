@@ -686,23 +686,19 @@ p.footer-bottom__about-company {
         margin: 0 auto ! important;
     }
 
-    .elementor-30 .elementor-element.elementor-element-6d33990 .gallery-item {
+    .elementor-35 .elementor-element.elementor-element-128c1f9d .gallery-item {
         padding: 0;
-    }
+    } 
 
-    .elementor-30 .elementor-element.elementor-element-6d33990 .gallery {
+    .elementor-35 .elementor-element.elementor-element-128c1f9d .gallery  {
         margin: 0;
     }
 
-    .elementor-30 .elementor-element.elementor-element-6d33990 .gallery-item {
-        padding: 0;
-    }
-
-    .elementor-30 .elementor-element.elementor-element-6d33990 .gallery-item {
+    .elementor-35 .elementor-element.elementor-element-128c1f9d .gallery-item {
         padding: 0 !important;
     }
 
-    .logo-gallery .galleryid-30 {
+    .logo-gallery .galleryid-35 {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
