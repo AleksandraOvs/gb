@@ -512,6 +512,7 @@ figure.gallery-item .gallery-icon {
 
 .logo-gallery #gallery-1 figure {
     max-width: unset !important;
+    padding: 10px 20px !important;
 }
 
 /* figure.gallery-item .gallery-icon{
@@ -686,11 +687,11 @@ p.footer-bottom__about-company {
         display: block;
     }
 
-    .elementor-image-gallery .gallery-columns-6 .gallery-item {
+    .logo-gallery #gallery-1 .gallery-item {
         max-width: unset !important;
     }
 
-    .elementor-image-gallery .gallery-columns-6 .gallery-item {
+    .logo-gallery #gallery-1 .gallery-item {
         max-width: 25%;
     }
 
