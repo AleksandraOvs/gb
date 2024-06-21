@@ -1,34 +1,27 @@
 <?php
 
 /**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * Template name: Страница новостей
  */
 
 get_header(); ?>
 <section class="basic-page">
     <div class="fixed-container">
 
-    <div class="basic-page__header">
-    <ul class="breadcrumbs__list">
-                <?php echo site_breadcrumbs(); ?>Новости
+        <div class="basic-page__header">
+            <ul class="breadcrumbs__list">
+                <?php echo site_breadcrumbs(); ?>
             </ul>
-        <h2><?php the_title() ?></h2>
-    </div>
+            <h2><?php the_title() ?></h2>
+        </div>
 
 
         <?php
 
         $args = array(
             'posts_per_page' => 9,
-            'publish' => true
-
+            'publish' => true,
+            'category_name' => 'news'
         );
 
         $query = new WP_Query($args);

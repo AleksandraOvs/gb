@@ -9,6 +9,7 @@
  */
 
 require get_stylesheet_directory() . '/inc/carbon-fields.php';
+require get_stylesheet_directory() . '/inc/breadcrumbs.php';
 
 //show current template for dev
 
