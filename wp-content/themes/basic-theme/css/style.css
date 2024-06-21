@@ -491,13 +491,27 @@ ul.posts-list li:last-child {
 }
 
 .logo-gallery .elementor-widget-container figure.gallery-item {
-    width: 216px;
+    width: 100%;
     height: 100px;
+}
+
+.elementor-30 .elementor-element.elementor-element-6d33990 .gallery-item {
+    padding: 0 !important;
 }
 
 figure.gallery-item .gallery-icon {
     width: 100%;
     height: 100%;
+}
+
+.logo-gallery #gallery-1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-between;
+}
+
+.logo-gallery #gallery-1 figure {
+    max-width: unset !important;
 }
 
 /* figure.gallery-item .gallery-icon{
