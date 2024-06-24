@@ -669,6 +669,42 @@ p.footer-bottom__about-company {
     ul.posts-list {
         gap: 40px;
     }
+
+    .footer .fixed-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-right {
+        display: grid;
+        margin-top:90px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .footer__right__links a.button.fill {
+        width: max-content;
+        max-width: 178px;
+    }
+
+    .footer__right__links .footer__link {
+        text-align: left;
+        margin: 20px auto 0;
+    }
+
+    .footer-bottom .fixed-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    
+
+    .footer__right__links {
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 768px){

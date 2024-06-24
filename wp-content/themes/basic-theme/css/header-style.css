@@ -586,7 +586,7 @@ transition: all .5s ease-in-out;
     }
 
     ul.mobile__menu__messengers {
-        margin-top: 75px;
+        margin-top: 0;
         width:100%;
     }
 
@@ -615,4 +615,88 @@ transition: all .5s ease-in-out;
 .footer-contacts{
     display: block;
 }
+
+.footer .fixed-container {
+    display: block;
+}
+
+a.footer__logo.logo {
+    display: block;
+    width: 175px;
+    height: 92px;
+    margin: 0 auto;
+}
+
+.footer__menu {
+    columns: unset;
+}
+
+.footer__menu {
+    margin-top: 60px;
+    columns: unset;
+}
+
+.footer__menu li a {
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.footer__menu li a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.footer-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+}
+
+.footer__right__links {
+    order: 1;
+}
+
+ul.mobile__menu__messengers {
+    margin-top:60px;
+    order: 2;
+}
+
+.footer__right__links a.button.fill {
+    margin: 0 auto;
+}
+
+.footer__right__links .footer__link {
+    text-align: center;
+}
+
+.footer-right .mobile__menu__messengers .social__item .social__link {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-right .mobile__menu__messengers li:nth-child(3) {
+    justify-content:center;
+}
+
+.footer-bottom__site-name {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.footer-bottom__link {
+    text-align: center;
+    display: block;
+    margin-bottom: 8px;
+}
+
+p.footer-bottom__about-company {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
 }
