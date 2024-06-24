@@ -779,5 +779,9 @@ p.footer-bottom__about-company {
     section.basic-page {
         margin-bottom: 40px;
     }
+
+    h2 {
+        font-size: 18px;
+    }
   
 }
