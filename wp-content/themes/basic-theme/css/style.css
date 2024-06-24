@@ -659,6 +659,23 @@ p.footer-bottom__about-company {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media (max-width: 1380px){
+    .main-page_title div h2 {
+        font-size: 30px;
+        font-family: 'Manrope';
+        margin: 0;
+        line-height: 1.2;
+        color: var(--black);
+        font-weight: 600;
+        padding: 16px 30px 16px 0;
+        padding-left: 30px;
+        margin-left: -30px;
+        background: var(--light-orange);
+        width: max-content;
+        border-radius: 0 30px 30px 0;
+    }
+}
+
 @media (max-width: 1200px){
     li.posts-list__item a.post-thumbnail {
         height: 270px;
@@ -780,7 +797,7 @@ p.footer-bottom__about-company {
         margin-bottom: 40px;
     }
 
-    h2 {
+    .main-page_title h2 {
         font-size: 18px;
     }
   
