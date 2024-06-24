@@ -666,9 +666,9 @@ p.footer-bottom__about-company {
 }
 
 @media (max-width: 1024px){
-    ul.posts-list {
+    /* ul.posts-list {
         gap: 40px;
-    }
+    } */
 
     .footer .fixed-container {
         display: grid;
