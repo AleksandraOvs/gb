@@ -130,7 +130,7 @@ h1 {
 
 h2 {
     font-size: 30px;
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
     margin: 0;
     line-height: 1.2;
     color: var(--black);
@@ -140,7 +140,7 @@ h2 {
 h3 {
     font-size: 18px;
     font-weight: 600;
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
     line-height: 100%;
     margin: 0;
 }
@@ -661,7 +661,7 @@ p.footer-bottom__about-company {
 
 @media (max-width: 1380px){
     .main-page_title div h2 {
-        font-size: 30px;
+        font-size: 24px;
         font-family: 'Manrope';
         margin: 0;
         line-height: 1.2;
@@ -795,10 +795,6 @@ p.footer-bottom__about-company {
 
     section.basic-page {
         margin-bottom: 40px;
-    }
-
-    .main-page_title h2 {
-        font-size: 18px;
     }
   
 }
