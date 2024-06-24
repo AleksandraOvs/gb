@@ -662,7 +662,7 @@ p.footer-bottom__about-company {
 @media (max-width: 1380px){
     .main-page_title div h2 {
         font-size: 24px;
-        font-family: 'Manrope';
+        font-family: 'Manrope', sans-serif;
         margin: 0;
         line-height: 1.2;
         color: var(--black);
