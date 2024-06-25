@@ -93,7 +93,7 @@
     <div class="footer-bottom">
         <div class="fixed-container">
             <div class="footer-bottom__site-name">
-                <span><?php echo the_time('Y') ?></span>| <span><?php bloginfo('name'); ?></span>
+                <span><?php echo the_time('Y') ?></span>&nbsp;|&nbsp;<span><?php bloginfo('name'); ?></span>
             </div>
 
             <a href="<?php echo site_url('privacy-policy') ?>" class="footer-bottom__link">Политика конфиденциальности</a>

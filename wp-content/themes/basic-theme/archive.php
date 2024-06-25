@@ -1,4 +1,4 @@
-get_header(); ?>
+<?php get_header(); ?>
 <section class="basic-page">
     <div class="fixed-container">
 

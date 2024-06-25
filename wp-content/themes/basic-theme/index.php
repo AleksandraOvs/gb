@@ -17,7 +17,7 @@ get_header(); ?>
 
     <div class="basic-page__header">
     <ul class="breadcrumbs__list">
-                <?php echo site_breadcrumbs(); ?>Новости
+                <?php echo site_breadcrumbs(); ?>
             </ul>
         <h2><?php the_title() ?></h2>
     </div>
