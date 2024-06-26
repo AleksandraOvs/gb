@@ -7,7 +7,7 @@
 
 </main>
 
-<div id="callback-popup">
+<div id="callback-popup" style="display: none;">
 
     <?php
         if ($callback = carbon_get_theme_option('crb_contact_shortcode')){
