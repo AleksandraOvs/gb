@@ -34,7 +34,7 @@
 
 				<div class="header__right">
 					<div class="header__right__links">
-						<a href="/" class="button fill">Заказать звонок</a>
+						<a data-fancybox href="#callback-popup" class="button fill">Заказать звонок</a>
 						<a class="header__link" href="/">Вход для партнеров</a>
 					</div>
 					<div class="header__right__contacts">
@@ -122,7 +122,7 @@
 					?>
 
 					<div class="mobile-toggle__links">
-						<a href="/" class="button fill">Заказать звонок</a>
+						<a data-fancybox href="#callback-popup" class="button fill">Заказать звонок</a>
 						<a class="header__link" href="/">Вход для партнеров</a>
 					</div>
 

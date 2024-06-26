@@ -6,6 +6,21 @@
 ?>
 
 </main>
+
+<div id="callback-popup">
+
+    <?php
+        if ($callback = carbon_get_theme_option('crb_contact_shortcode')){
+            ?>
+               <?php echo do_shortcode( $callback ); ?>
+            <?php
+        }else {
+            echo '2';
+        }
+    ?>
+</div>
+
+
 <footer id="footer" class="footer">
 
     <div class="fixed-container">
@@ -82,7 +97,7 @@
             </ul>
 
             <div class="footer__right__links">
-                <a href="/" class="button fill">Заказать звонок</a>
+                <a data-fancybox href="#callback-popup" class="button fill">Заказать звонок</a>
                 <a class="footer__link" href="/">Вход для партнеров</a>
             </div>
         </div>

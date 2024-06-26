@@ -298,6 +298,35 @@ span.wpcf7-not-valid-tip {
     text-align: center;
 }
 
+.contact-form._callback-call h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-form._callback-call p{
+    text-align:center;
+}
+
+.fancybox-slide--html .fancybox-close-small {
+    color: #fff;
+    padding: 10px;
+    right: 10px;
+    top: 10px;
+}
+
+.contact-form h3 {
+    font-family: 'Manrope', sans-serif;
+}
+
+.cf-submit {
+    font-family: 'Manrope', sans-serif;
+}
+
+.fancybox-slide div {
+    border-radius: 30px;
+}
+
 /*hero slider*/
 
 section.section-hero {
