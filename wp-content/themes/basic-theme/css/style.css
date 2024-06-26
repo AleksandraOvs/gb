@@ -42,8 +42,8 @@ body {
     font-size: 16px;
     color: var(--black);
     line-height: 130%;
-    overflow-x: hidden;
-    /* background: rgb(231,231,231);
+        /*overflow-x: hidden;
+ background: rgb(231,231,231);
     background: var(--white-gradient); */
     width: 100%;
 }
