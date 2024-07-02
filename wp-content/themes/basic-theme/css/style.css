@@ -697,10 +697,10 @@ p.footer-bottom__about-company {
     font-size: 12px;
 }
 
-.footer-bottom .fixed-container {
+/* .footer-bottom .fixed-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+    grid-template-columns: 1fr 1fr;
+} */
 
 @media (max-width: 1200px){
     li.posts-list__item a.post-thumbnail {

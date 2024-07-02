@@ -113,9 +113,9 @@
 
             <a href="<?php echo site_url('privacy-policy') ?>" class="footer-bottom__link">Политика конфиденциальности</a>
 
-            <p class="footer-bottom__about-company">
+            <!-- <p class="footer-bottom__about-company">
             ООО «Блазерс» ИНН 7892203688423
-            </p>
+            </p> -->
         </div>
 
     </div>
