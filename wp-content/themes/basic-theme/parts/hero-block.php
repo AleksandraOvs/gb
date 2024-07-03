@@ -31,7 +31,12 @@
                 </div>
 
                 <div class="hero-slider__wrapper__content">
-                    <a href="#" class="button fill">Оставить заявку</a>
+                    <?php if ($callback_link = carbon_get_theme_option('crb_button_link')) {
+                    ?>
+                        <a data-fancybox href="<?php echo $callback_link ?>" class="button fill">Оставить заявку</a>
+                    <?php
+                    }
+                    ?>
                 </div>
 
             </div>
