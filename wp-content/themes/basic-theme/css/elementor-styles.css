@@ -64,3 +64,13 @@
     z-index:6;
     padding: 32px 24px;
 } */
+
+.industry-link {
+    width: 100%;
+    height: 100%;
+}
+
+.industry-link .elementor-widget-container {
+    display: flex;
+    align-items: flex-end;
+}
