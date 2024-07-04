@@ -35,3 +35,14 @@
     height: 555px;
     overflow: hidden;
 }
+
+.industry div div img {
+    border-radius: 30px;
+}
+
+.industry-heading {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 32px 24px;
+}
