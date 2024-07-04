@@ -53,7 +53,7 @@
     transition: all .5s ease-in-out;
 }
 
-.industry:after:hover{
+.industry:hover:after{
     opacity: .5s;
     transition: all .5s ease-in-out;
 }
