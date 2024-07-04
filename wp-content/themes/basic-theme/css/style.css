@@ -275,6 +275,13 @@ p {
     width: 100%;
 }
 
+.cf-input::placeholder, .cf-textarea::placeholder{
+    font-size: 16px;
+    color: #212121;
+}
+
+
+
 span.wpcf7-not-valid-tip {
     background: #e26060;
     color: #fff;
