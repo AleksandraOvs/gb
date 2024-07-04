@@ -27,3 +27,11 @@
 .about-us-slider .elementor-widget-container .elementor-image-carousel-wrapper .elementor-image-carousel {
     gap: 20px;
 }
+
+/*industry*/
+
+.industry {
+    position: relative;
+    height: 555px;
+    overflow: hidden;
+}
