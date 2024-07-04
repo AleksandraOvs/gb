@@ -278,6 +278,14 @@ p {
 .cf-input::placeholder, .cf-textarea::placeholder{
     font-size: 16px;
     color: #212121;
+    font-weight: 600;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea.cf-textarea::placeholder {
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    color: #212121;
+    font-weight:600;
 }
 
 
