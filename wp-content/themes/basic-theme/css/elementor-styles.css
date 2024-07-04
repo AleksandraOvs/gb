@@ -56,6 +56,8 @@
 .industry-heading {
     position: absolute !important;
     width: 100%;
+    height:100%;
+    display: block;
     bottom: 0;
     padding: 32px 24px;
     z-index:3;
