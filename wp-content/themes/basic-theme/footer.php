@@ -14,8 +14,6 @@
             ?>
                <?php echo do_shortcode( $callback ); ?>
             <?php
-        }else {
-            echo '2';
         }
     ?>
 </div>
