@@ -61,11 +61,13 @@ ul {
 }
 
    a {
+    color: var(--black);
     text-decoration: none;
     transition: all .3s linear;
 }
 
 a:hover {
+    color: var(--orange);
     transition: all .3s linear;
 }
 
