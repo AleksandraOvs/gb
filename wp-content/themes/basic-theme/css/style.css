@@ -60,15 +60,12 @@ ul {
     padding: 0;
 }
 
-a {
-    color: var(--black);
+   a {
     text-decoration: none;
     transition: all .3s linear;
 }
 
 a:hover {
-    color: var(--orange);
-    /* filter:drop-shadow(0 0 5px rgba(22,159,219, 0.85)); */
     transition: all .3s linear;
 }
 
